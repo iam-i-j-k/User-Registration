@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: rgb(29, 26, 26);
+    color: white;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.8rem;
+}
+
+.box{
+    font-size: 1.3rem;
+    display: flex;
+    padding: 30px 80px;
+}
+.box input,select{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(20, 48, 43);
+    color: white;
+    font-family: 'Open Sans';
+    outline-color: white;
+}
+
+.box select{
+    width: 101%;
+}
+
+.check{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.check input{
+    max-width: 50px;
+}
+.btn{
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    padding: 10px 50px;
+    color: white;
+    border: none;
+    background-color: rgb(20, 48, 43);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(20, 48, 43);
+}
+
+@media only screen and(max-width: 600px){
+    body{
+        font-size: 1rem;
+    }
+}
