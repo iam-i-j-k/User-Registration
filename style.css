@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behaviour: smooth;
+}
 body{
     font-family: 'Open Sans';
     background-color: rgb(29, 26, 26);
@@ -35,7 +37,7 @@ nav{
 }
 
 .box select{
-    width: 101%;
+    width: 102%;
 }
 
 .check{
